@@ -4,7 +4,7 @@
     padding: 0;
 }
 body{
-    background-color: #F5F5F5;
+    background-color: #E6E6E6;
     font-family: "Roboto Condensed", sans-serif;
 }
 .header{
@@ -388,11 +388,12 @@ header .cart{
     display: flex;
     /* justify-content: space-evenly; */
     gap: 9px;
-    background-color: white;
+    /* background-color: white; */
 }
 .justforyou .cards{
     position: relative;
     width: 16%;
+    background-color: white;
 }
 .justforyou .cards:hover,.darazMall .cards_mall .cards:hover,.categories .cards:hover{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -435,13 +436,42 @@ header .cart{
 footer {
     display: flex;
     gap: 20px;
+    justify-content: space-between;
 }
-footer .section_one, footer .section_two{
+footer .section{
     font-size: 15px;
-    min-width: 20%;
+    width: 20%;
     gap: 5px;
 }
-footer .section_one span , footer .section_two span{
-    font-size: 25px;
+footer .section span{
+    font-size: 20px;
     color: #F85606;
+}
+footer .section3 .country{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+footer .section3 .country .card{
+    width: 45%;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+footer .section3 .country .card img{
+    width: 30px;
+    border-radius: 50%;
+}
+footer .section3 .image img{
+    width: 100%;
+    /* height: 50px; */
+} 
+footer .section3 .verify{
+    height: 50px;
+    width: 30%;
+}
+footer .section4 .social{
+    font-size: 30px;
+    gap: 20px;
 }
