@@ -379,3 +379,69 @@ header .cart{
     margin: auto;
     text-align: center;
 }
+.container .justforyou{
+    display:  flex;
+    flex-wrap: wrap;
+}
+.justforyou{
+    padding: 10px 0;
+    display: flex;
+    /* justify-content: space-evenly; */
+    gap: 9px;
+    background-color: white;
+}
+.justforyou .cards{
+    position: relative;
+    width: 16%;
+}
+.justforyou .cards:hover,.darazMall .cards_mall .cards:hover,.categories .cards:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.justforyou .cards img{
+    width: 100%;
+    height: 188px;
+}
+.justforyou .cards .title{
+    font-size: 15px;
+    font-weight: 400;
+}
+.justforyou .cards .price{
+    font-size: 18px;
+    font-weight: 400;
+    color: #F85606;
+}
+.justforyou .cards .text{
+    padding: 10px;
+}
+.justforyou .cards del{
+    color: grey;
+} 
+.justforyou .cards .overlay{
+    height: 188px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.356);
+}
+.justforyou .cards .text .ratings i{
+    font-size: 10px;
+    color: #FACA51;
+}
+/* footer section start */
+footer {
+    display: flex;
+    gap: 20px;
+}
+footer .section_one, footer .section_two{
+    font-size: 15px;
+    min-width: 20%;
+    gap: 5px;
+}
+footer .section_one span , footer .section_two span{
+    font-size: 25px;
+    color: #F85606;
+}
